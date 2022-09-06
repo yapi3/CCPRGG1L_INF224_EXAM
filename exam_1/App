@@ -1,0 +1,17 @@
+public class App {
+    public static void main(String[] args) {
+        
+        Student Zophia = new Student();
+
+        Zophia.surname = "Rey";
+        Zophia.firstName = "Zophia";
+        Zophia.middleInitial = 'M';
+        Zophia.dateOfBirth = "11/03/2003";
+        Zophia.studentNumber = 2022104435;
+        Zophia.studentEmailAddress = "reyzm@students.national-u.edu.ph";
+        Zophia.iAmAwesome = true;
+        Zophia.sayMyStudentNumber();
+        Zophia.sayMyEmailAddress();
+        Zophia.amIAwesome();
+    }
+}
