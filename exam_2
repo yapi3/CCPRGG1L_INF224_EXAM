@@ -225,25 +225,25 @@ public class Exam {
         String strand = scan.next();
         switch (strand) {
             case "STEM":
-                System.out.println("Your selected strand is STEM");
+                System.out.println("valid");
                 break;
             case "ICT":
-                System.out.println("Your selected strand is ICT");
+                System.out.println("invalid");
                 break;
             case "HUMSS":
-                System.out.println("Your selected strand is HUMSS");
+                System.out.println("invalid");
                 break;
             case "HOME ECONOMICS":
-                System.out.println("Your selected strand is HOME ECONOMICS");
+                System.out.println("invalid");
                 break;
             case "ARTS AND DESIGN":
-                System.out.println("Your selected strand is ARTS AND DESIGN");
+                System.out.println("invalid");
                 break;
             case "TVL MARITIME":
-                System.out.println("Your selected strand is TVL MARITIME");
+                System.out.println("invalid");
                 break;
             default:
-                System.out.println("Your chosen strand is not in the selection");
+                System.out.println("invalid");
                 break;
         }
 
